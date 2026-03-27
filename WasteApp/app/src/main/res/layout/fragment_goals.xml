@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment_goals">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center|top">
+
+        <LinearLayout
+            android:id="@+id/win_goals_1"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/goal01"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:padding="10dp"
+                android:scaleType="fitCenter"
+                android:background="@drawable/border_icon"
+                android:src="@drawable/goal01" />
+
+            <ImageButton
+                android:id="@+id/goal02"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@drawable/border_icon"
+                android:padding="10dp"
+                android:scaleType="fitCenter"
+                android:layout_marginLeft="24dp"
+                android:src="@drawable/goal02" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/win_goals_2"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/goal03"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@drawable/border_icon"
+                android:padding="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/goal03"  />
+
+            <ImageView
+                android:id="@+id/goal04"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="24dp"
+                android:background="@drawable/border_icon"
+                android:padding="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/goal04png" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/win_goals_3"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/goal05"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@drawable/border_icon"
+                android:padding="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/goal05" />
+
+            <ImageView
+                android:id="@+id/goal06"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="24dp"
+                android:background="@drawable/border_icon"
+                android:padding="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/goal06" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/win_goals_4"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/goal07"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@drawable/border_icon"
+                android:padding="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/unknow" />
+
+            <ImageView
+                android:id="@+id/goal08"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="24dp"
+                android:background="@drawable/border_icon"
+                android:padding="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/unknow" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
